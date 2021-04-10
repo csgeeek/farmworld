@@ -1,7 +1,7 @@
 # farmworld
 <em>A simple website developed using HTML,CSS,JS on front End<em>
   
-<em>Back-End still in development.<em>
+<em>Back-End is still under development.<em>
   
 <b>index.html</b> is the home page.
 
