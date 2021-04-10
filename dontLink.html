@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initialscale=1.0">
+<title>Document</title>
+</head>
+<body>
+<button onclick="decrement()">-</button>
+<input type="number" id="demoInput" style="width: 45px;"  value="0" min=0 max=51>
+<button onclick="increment()">+</button>
+<script>
+   function increment() {
+      document.getElementById('demoInput').stepUp();
+   }
+   function decrement() {
+      document.getElementById('demoInput').stepDown();
+   }
+</script>
+</body>
+</html>
+
+
+<!--
+    <div class="footer">
+        <div class="last-logo">
+            <h4>FARMWORLD</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, architecto.</p>
+        </div>
+        <div class="about-panel">
+            <h3>About</h3>
+            <ul class="about-list">
+                <li>
+                    <a href="#">Farm World</a>
+                </li>
+                <li>
+                    <a href="#">Farmer Network</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">FAQ's</a>
+                </li>
+            </ul>
+        </div>
+        <div class="info-panel">
+            <h3>Information</h3>
+            <ul class="info-list">
+                <li>
+                    <a href="#">Terms&conditions</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policies</a>
+                </li>
+                <li>
+                    <a href="#">Refund Policies</a>
+                </li>
+                <li>
+                    <a href="#">Others</a>
+                </li>
+            </ul>
+        </div>
+        <div class="social-media-acc">
+            <a href="https://www.whatsapp.com/" title="whatsapp">
+                <i style="font-size:24px;color:green;" class="fa">&#xf232;</i>
+                </a>
+                <a href="https://www.linkedin.com/" title="linkedin">
+                <i style="font-size:24px;color:rgb(15, 98, 194);" class="fa">&#xf08c;</i>
+                </a>
+                <a href="https://www.instagram.com/" title="instagram">
+                <i style="font-size:24px;color:rgb(248, 148, 164);" class="fa">&#xf16d;</i>
+                </a>
+                <a href="https://www.facebook.com/" title="facebook">
+                <i style="font-size:24px;color:rgb(15, 98, 194)" class="fa">&#xf09a;</i>
+            </a>
+        </div>
+        <div class="copyright">
+            <p>FARMWORLD &copy</p>
+        </div>
+    </div>
+
+
+
+
+
+    .footer{
+	/* position: relative; */
+	display: flex;
+	background-color: rgb(233, 189, 158);
+	height: 150%;
+	width: auto;
+	justify-content: space-evenly;
+	padding: auto;margin: auto;
+}
+.about-panel,
+.info-panel {
+	font-size: 20px;
+	color: brown;
+	padding: 30px;
+}
+.social-media-acc{
+	margin-right: 200px;
+	margin-top: 125px;
+}
+.about-list,
+.info-list {
+	list-style: none;
+}
+.info-list a{
+	text-decoration: none;
+	color: #808080;
+	font-size: 15px;
+}
+.about-list a{
+	text-decoration: none;
+	color: #808080;
+	font-size: 15px;
+}
+.last-logo{
+	/* position: absolute;	*/
+	color: rgb(97, 29, 29);
+	margin-top: 50px;
+	display: flex;
+}
+.last-logo p{
+	font-size: 15px;
+	line-height: 1em;
+}
+.copyright{
+	margin-top: 40px;
+    font-size: 70px;
+	font-family: 'Courier New', Courier, monospace ;
+}
+/*  */
+-->
+
+
+<!-- Navbar OLD -->
+<!-- 
+    <div class="container">	
+    <div class="nav-wrapper" >
+
+        <div class="left-side">
+            <div class="nav-link-wrapper">
+                <a href="index.html" title="Home">Home</a>
+            </div>
+            <div class="nav-link-wrapper">
+                <a href="explore.html" title="Explore Products">Explore Products</a>
+            </div>
+
+        </div>
+
+        <div class="right-side">
+            <div class="nav-link-wrapper">
+                <a href="basket.html">Veggie Basket</a>	
+            </div>
+            <div class="nav-link-wrapper">
+                <a href="about.html" title="About">About</a>
+            </div>
+            <div class="nav-link-wrapper">
+                <a href="contact.html">Contact Us</a>	
+            </div>
+            <!--  
+            <div class="brand"><div>Farm World</div></div>
+           //comment
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+.logo img{
+	float: left;
+	width: 50px;
+	height: auto;
+	margin-left: 20px;
+	margin-top: 25px;;
+}
+/* Header Links */
+.nav-wrapper{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+}
+.left-side{
+	float: left;
+	display: flex;
+}
+.nav-wrapper > .left-side > div{
+	margin-right: 20px;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+.right-side{
+	display: flex;
+}
+.nav-wrapper > .right-side > div{
+	margin-right: 20px;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+.nav-link-wrapper{
+	height: 22px;
+	border-bottom: 1px solid transparent;
+	padding: 2px 11px;
+	/* border: 2px solid white;  */
+}
+.nav-link-wrapper a{
+	display: table;
+     margin: 0px auto 0px auto;
+	text-decoration: none;
+	background-color: transparent;
+    padding:5px;color:white;
+	transition: color 0.6s; 
+}
+/*
+.nav-link-wrapper:hover{
+	background-color: white;
+	transition: background-color 0.5s; 
+}
+*/
+.nav-link-wrapper a:hover{
+	color: black;
+	background-color: white;
+	display: inline-block;
+	transition: color 0.6s; 
+	transition: background-color 0.6s; 
+}
+
+
+
+
+
+
+
+    <div class="navbar-container">
+        <div class="logo">
+            Logo
+        </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Others</a></li>
+            </ul>
+    </div>
+ -->

@@ -1,0 +1,395 @@
+/* Styling */
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+/* Smooth-scroll */
+html {
+	scroll-behavior: smooth;
+  }
+  /* Smooth-scroll */
+body{
+	position: relative;
+}
+.OG-head{
+	height: 50px;
+}
+.header{
+	font-size: 35px;
+	color: black;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/veggies.jpg");
+    height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+h2{
+    
+}
+
+/* Quote on BG */
+.textOnBG{
+	text-shadow: 2px 2px 5px white;
+	float:right;
+	margin-top: 50px;
+	margin-left: 600px;
+	margin-right: 50px;
+	text-align: right;
+	font-size: 80px;
+}
+/* Quote on BG */
+
+h1{
+    text-align: center;
+}
+/* Brand */
+.brand > div{
+	text-transform: uppercase;
+	font-weight: 600;
+	color: seagreen;
+	background-color: rgb(223, 118, 43);
+	font-family: monospace;
+}
+*/
+/*Top button  */
+.tBtn #myBtn{
+	border: 1px solid rgba(10, 10, 10,0.2);
+	transition: 0.5s ease; 
+}
+span #arrow{
+	color: yellow;
+	transition: 0.6s;
+}
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 20px;
+	border: none;
+	outline: none;
+	/* background-color: rgba(8, 131, 8,0.85);rgba(15, 161, 161, 0.7); */
+	background-color: #009879;
+	color: rgb(240, 238, 238);
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 40%;
+	font-family: cursive;
+  }
+  
+  #myBtn:hover {
+	/* background-color: rgba(8, 131, 8,0.5); */
+	background-color: #099b7da6;
+  }
+/*Top button  */
+/* Atttachment */
+
+.logo img{
+	float: left;
+	width: 50px;
+	height: auto;
+	margin-left: 20px;
+	margin-top: 25px;;
+}
+/* Header Links */
+.the-navbar{
+	/* background-color: rgb(37, 36, 36); */
+	background-color: #009879;
+}
+.nav-wrapper{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+}
+.left-side{
+	float: left;
+	display: flex;
+}
+.nav-wrapper > .left-side > div{
+	margin-right: 20px;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+.right-side{
+	display: flex;
+}
+.nav-wrapper > .right-side > div{
+	margin-right: 20px;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+.nav-link-wrapper{
+	height: 22px;
+	border-bottom: 1px solid transparent;
+	padding: 2px 11px;
+	/* border: 2px solid white;  */
+}
+.nav-link-wrapper a{
+	display: table;
+     margin: 0px auto 0px auto;
+	text-decoration: none;
+	background-color: transparent;
+    padding:5px;color:white;
+	transition: color 0.6s; 
+}
+/*
+.nav-link-wrapper:hover{
+	background-color: white;
+	transition: background-color 0.5s; 
+}
+*/
+.nav-link-wrapper a:hover{
+	color: black;
+	background-color: white;
+	display: inline-block;
+	transition: color 0.6s; 
+	transition: background-color 0.6s; 
+}
+
+.fixed{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 20;
+}
+/* main body */
+
+.mainbody >h1{
+	/* color: rgb(46, 139, 87); */
+	color: #009879;
+}
+.mainbody > p{
+	margin-left: 250px;
+	margin-right: 250px;
+	text-align: center;
+	font-family: "Poppins";
+}
+
+/* The 3 Logos 
+.logocontainer{
+	width: 1200px;
+	height: 350px;
+	margin: 50px auto;
+	border: 2px solid black;
+}
+.the3logos{
+	 display: flex;
+	 margin-top: 650px;
+	 margin-left: 100px;
+	 margin-right: 100px;
+	 justify-content: space-evenly;
+}
+*/
+.sub-logos {
+    width: 70%;
+    margin: 100px;
+	margin-left: 400px;
+
+}
+.sub-logos {
+    display: flex;
+}
+.sub-logos .sub-logo {
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 25%;
+    text-align: center;
+}
+.sub-logos .sub-logo h3{
+	font-size: 14px;
+	text-align: center;
+}
+.sub-logos p {
+    color: #808080;
+	font-family: 'Lora', serif ;
+    letter-spacing: -0.1px;
+    line-height: 20px;
+}
+/* item-table */
+.item-table{
+	border-collapse: collapse; 
+	margin: 100px 200px;
+	font-size: 0.9em;
+	min-width: 400px;
+	font-family: monospace;
+	border-radius: 10px 10px 0 0;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.item-table thead{
+	background-color: #009879;
+	text-align: left;
+	color: white;
+}
+.item-table th{
+	height: 70px;
+	line-height: 15px;
+}
+.item-table th,
+.item-table td{
+	padding: 12px 15px;
+}
+.item-table tbody tr{
+	border-bottom: 2px solid #dddddd;
+	font-weight: 800;
+}
+.item-table tbody tr:nth-of-type(even){
+	background-color: #e0dede ;	/* #e0dede *//*#e9e8e8;*/
+}
+.item-table tbody tr:last-of-type{
+	border-bottom: 2px solid #009879;
+}
+.item-table tbody tr.out-of-stock{
+	color: rgb(172, 170, 170);
+	font-weight: 50;
+}
+.item-table tbody a{
+	text-decoration: none;
+	color: black;
+}
+
+
+/* about-panel 
+.about-panel{
+	margin-left: 600px;
+	margin-bottom: 200px;
+}
+.about-panel h3{
+	font-size: 20px;
+}
+.about-list{
+	list-style: none;
+}
+.about-list a{
+	text-decoration: none;
+	color: #808080;
+	font-size: 15px;
+
+}
+.info-panel{
+	margin-left: 600px;
+	margin-bottom: 200px;
+}
+.info-panel h3{
+	font-size: 20px;
+}
+.info-list{
+	list-style: none;
+}
+.info-list a{
+	text-decoration: none;
+	color: #808080;
+	font-size: 15px;
+}
+*/
+/* come join us tab */
+.join-us h2{
+	/* color: rgb(46, 139, 87); */
+	color: #009879;
+	font-size: 55px;
+
+}
+.join-us a{
+	text-decoration: none;
+}
+.join-us {
+	margin-left: 250px;
+	margin-right: 250px;
+	text-align: center;
+	font-family: "Poppins";
+}
+/* footer panel */
+footer{
+	/* background-color: rgb(113, 186, 219); */
+	background-color: #00987ae7;
+	height: 30vh;
+	display: flex;
+	justify-content: space-evenly;
+}
+footer .panel .footer-logo{
+	float: left;
+	color: rgb(14, 13, 13);
+	width: 88%;
+	/* transform: translate(30%,5%); */
+}
+footer .panel .footer-logo p{
+	font-family: 'Lora', serif ;
+	font-size: 12px;
+	color: white;
+    letter-spacing: -0.1px;
+	/* color: gray; */
+    line-height: 20px;
+}
+footer .panel {
+	margin-top: 80px;
+	font-size: 20px;
+	text-align: center;
+
+}
+footer .panel .panel-list {
+	list-style: none;
+}
+footer .panel .panel-list a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+}
+.social-media-acc{
+	margin-top: 80px;
+}
+.social-media-acc a{ 
+	padding: 0 0.6rem 0 0;
+	text-decoration: none;
+}
+
+
+
+/* Add to cart button */
+.add-to-cart{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.addToCart{
+		border-radius: 4px;
+		/* background-color: rgb(8, 131, 8); */
+		background-color: #009879;
+		border: none;
+		color: #FFFFFF;
+		text-align: center;
+		font-size: 28px;
+		font-family: 'Times New Roman', Times, serif;
+		padding: 20px;
+		width: 170px;
+		transition: all 0.5s;
+		cursor: pointer;
+}
+
+.addToCart span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+  
+  .addToCart span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	transition: 0.5s;
+  }
+  
+  .addToCart:hover span {
+	padding-right: 25px;
+  }
+  
+  .addToCart:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
+

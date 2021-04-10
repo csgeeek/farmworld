@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="attachToLoginPage.css">
+</head>
+<body background="images/1-edited.jpg">
+    <div class="login-panel">
+        <h1>Login</h1>
+        <form  name="f1" action="authentication.php" method="POST" onsubmit="return validation()">
+            <p>Username</p>
+            <input type="text" name="user" placeholder="Enter Username" id="user">
+            <p>Password</p>
+            <input type="password" name="pass" placeholder="Enter Password" id="pass">
+            <input type="submit" name="" value="Login" id="btn" >
+            
+            <br>
+            <a href="#">Forgot Password?</a> 
+            <br>
+            <a href="#">Sign Up?</a>
+        </form>
+    </div>
+    <script>  
+        function validation()  
+        {  
+            var id=document.f1.user.value;  
+            var ps=document.f1.pass.value;  
+            if(id.length=="" && ps.length=="") {  
+                alert("User Name and Password fields are empty");  
+                return false;  
+            }  
+            else  
+            {  
+                if(id.length=="") {  
+                    alert("User Name is empty");  
+                    return false;  
+                }   
+                if (ps.length=="") {  
+                alert("Password field is empty");  
+                return false;  
+                }  
+            }                             
+        }  
+    </script>  
+</body>
+</html>

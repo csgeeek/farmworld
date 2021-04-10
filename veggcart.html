@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veggie Basket</title>
+    <link rel="stylesheet" href="attachToCart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--  
+    <div class="OG-head">
+        <h1>FARMWORLD</h1>
+    </div>
+    -->
+
+    
+    <!--  
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="about.html">About</a>
+    -->
+    <nav class="the-navbar" id="navbarID">
+    <div class="logo">
+        <a href="index.html">       <!--Link img to home-->
+            <img src="images/Logo2.PNG" alt="Logo">
+        </a>
+    </div>
+    <div class="container">	
+        <div class="nav-wrapper" >
+    
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="index.html" title="Home">Home</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="explore.html" title="Explore Products">Explore Products</a>
+                </div>
+    
+            </div>
+    
+            <div class="right-side">
+                <div class="nav-link-wrapper">
+                    <a href="veggcart.html">Veggie Basket</a>	
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="about.html" title="About">About</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="contact.html">Contact Us</a>	
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="logout.php">Logout</a>	
+                </div>
+                <!--  
+                <div class="brand"><div>Farm World</div></div>
+                -->
+            </div>
+        </div>
+    </div>
+    </nav>
+    <br><br>
+    <div class="heading1">
+        <h1>Veggie Basket</h1>
+    </div>
+    <div class="cart-items">
+        <table class="item-table" style="width:75%" >
+            <!-- <h1 style="color:rgb(46, 139, 87);">Table head</h1> -->
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Item-Name</th>
+                    <th>Price <sub>in Rs</sub></th>
+                    <th>Quantity</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+                <tr>
+                    <td>
+                        <img src="images\items\edited-tomato1.jpg" alt="Tomato" width="50" height="50">
+                    </td>
+                    <td>
+                        <a href="/veg links/tomato-link.html">Tomatoes</a>
+                    </td>
+                    <td>
+                        30 /- <sub>per kg</sub>
+                    </td>
+                    <td>
+                        <input type="number" id="demoInput" style="width: 45px;"  value="0" min=0 max=51>
+                        <script>
+                        function increment() {
+                            document.getElementById('demoInput').stepUp();
+                        }
+                        function decrement() {
+                            document.getElementById('demoInput').stepDown();
+                        }
+                        </script>
+                    </td>
+                    <td>
+                        <a href="#" style="color: red;">Remove item</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images\items\onion.png" alt="onion" width="50" height="50">
+                    </td>
+                    <td>
+                        <a href="/veg links/onion-link.html">Onions</a>
+                    </td>
+                    <td>
+                        50 /- <sub>per kg</sub>
+                    </td>
+                    <td>
+                        <input type="number" id="demoInput" style="width: 45px;"  value="0" min=0 max=51>
+                        <script>
+                        function increment() {
+                            document.getElementById('demoInput').stepUp();
+                        }
+                        function decrement() {
+                            document.getElementById('demoInput').stepDown();
+                        }
+                        </script>
+                    </td>
+                    <td>
+                        <a href="#" style="color: red;">Remove item</a>
+                    </td>
+                </tr>
+        </table>
+        <div class="add-to-cart">
+            <button class="addToCart"><span>BuyNow</span></button>
+        </div>
+    </div>
+<br><br><br><br><br>
+<div style="background-color:white;padding:30px 30px 250px">
+</div>
+    <footer>
+        <div class="panel">
+        <div class="class-footer-img">
+            <img src="images/Logo2.png" alt="Logo" style="width: 50%; height: 50%;">
+        </div>
+    </div>
+        <div class="panel">
+            <div class="footer-logo">
+                <h4>FARMWORLD</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, veritatis.</p>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-heading">
+                <h4>About</h4>
+            </div>
+            <ul class="panel-list">
+                <li><a href="#">Farm world</a></li>
+                <li><a href="#">Farmer Network</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQ's</a></li>
+            </ul>
+        </div>
+        <div class="panel">
+            <div class="panel-heading">
+                <h4>Information</h4>
+            </div>
+            <ul class="panel-list">
+                <li><a href="#">Terms&conditions</a></li>
+                <li><a href="#">Privacy Policies</a></li>
+                <li><a href="#">Refund Policies</a></li>
+                <li><a href="#">Others</a></li>
+            </ul>
+        </div>
+        <div class="social-media-acc">
+            <a href="https://www.whatsapp.com/" title="whatsapp" >
+                <i style="font-size:24px;color:green;" class="fa">&#xf232;</i>
+                </a>
+                <a href="https://www.linkedin.com/" title="linkedin">
+                <i style="font-size:24px;color:rgb(15, 98, 194);" class="fa">&#xf08c;</i>
+                </a>
+                <a href="https://www.instagram.com/" title="instagram" id="Instagram">
+                <i style="font-size:24px;color:rgb(253, 119, 141);" class="fa">&#xf16d;</i>
+                </a>
+                <a href="https://www.facebook.com/" title="facebook" id="Facebook">
+                <i style="font-size:24px;color:rgb(15, 98, 194)" class="fa">&#xf09a;</i>
+            </a>
+        </div>
+        <div class="panel">
+            <div class="panel-heading">
+                <h2>FARMWORLD &copy</h2>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

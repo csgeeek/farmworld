@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="attachToExplore.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Explore</title>
+</head>
+<body>
+    <header id="header">
+        <h1>Explore the freshest stock</h1>
+    </header>
+    <br><br>
+    <div class="dropdown">
+        <button class="dropbtn">Choose a Location</button>
+        <div class="dropdown-content">
+          <a href="#">Location 1</a>
+          <a href="#">Location 2</a>
+          <a href="#">Location 3</a>
+        </div>
+      </div>
+
+    <form action="">
+        <table class="item-table" style="width:75%" >
+            <h1 style="color:rgb(46, 139, 87); text-align: center; margin: 100px 200px; font-size: 45px;">Table head</h1>
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Item-Name</th>
+                    <th>Price <sub>in Rs</sub></th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+                <tr>
+                    <td>
+                        <img src="images\items\edited-tomato1.jpg" alt="Tomato" width="50" height="50">
+                    </td>
+                    <td>
+                        <a href="veg links/tomato-link.html">Tomatoes</a>
+                    </td>
+                    <td>
+                        30 /- <sub>per kg</sub>
+                    </td>
+                    <td>
+                        <input type="number" id="demoInput" style="width: 45px;"  value="0" min=0 max=51>
+                        <script>
+                        function increment() {
+                            document.getElementById('demoInput').stepUp();
+                        }
+                        function decrement() {
+                            document.getElementById('demoInput').stepDown();
+                        }
+                        </script>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images\items\onion.png" alt="onion" width="50" height="50">
+                    </td>
+                    <td>
+                        <a href="/veg links/onion-link.html">Onions</a>
+                    </td>
+                    <td>
+                        50 /- <sub>per kg</sub>
+                    </td>
+                    <td>
+                        <input type="number" id="demoInput" style="width: 45px;"  value="0" min=0 max=51>
+                        <script>
+                        function increment() {
+                            document.getElementById('demoInput').stepUp();
+                        }
+                        function decrement() {
+                            document.getElementById('demoInput').stepDown();
+                        }
+                        </script>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images\items\spinach.jpg" alt="Spinach" width="50" height="50">
+                    </td>
+                    <td>
+                        <a href="/veg links/spinach-link.html">Spinach</a>
+                    </td>
+                    <td>
+                        10 /- <sub>per bunch</sub>
+                    </td>
+                    <td>
+                        <input type="number" id="demoInput" style="width: 45px;"  value="0" min=0 max=51>
+                        <script>
+                        function increment() {
+                            document.getElementById('demoInput').stepUp();
+                        }
+                        function decrement() {
+                            document.getElementById('demoInput').stepDown();
+                        }
+                        </script>
+                    </td>
+                </tr>
+                <tr class="out-of-stock">
+                    <td>
+                        <img src="images\items\bottlegourd.jpg" alt="bottlegourd" width="50" height="50">
+                    </td>
+                    <td>
+                        <a href="/veg links/bottlegourd-link.html">Bottlegourd</a>
+                    </td>
+                    <td>
+                        30 /- <sub>per kg</sub>
+                    </td>
+                    <td>
+                        <input type="number" id="demoInput" style="width: 45px;"  value="0" min=0 max=0>
+                        <script>
+                        function increment() {
+                            document.getElementById('demoInput').stepUp();
+                        }
+                        function decrement() {
+                            document.getElementById('demoInput').stepDown();
+                        }
+                        </script>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images\items\potato.jpg" alt="potato" width="50" height="50">
+                    </td>
+                    <td>
+                        <a href="/veg links/potato-link.html">Potatoes</a>
+                    </td>
+                    <td>
+                        25 /- <sub>per kg</sub>
+                    </td>
+                    <td>
+                        <!-- <button onclick="decrement()">-</button> -->
+                        <input type="number" id="demoInput" style="width: 45px;"  value="0" min=0 max=51>
+                        <!-- <button onclick="increment()">+</button> -->
+                        <script>
+                        function increment() {
+                            document.getElementById('demoInput').stepUp();
+                        }
+                        function decrement() {
+                            document.getElementById('demoInput').stepDown();
+                        }
+                        </script>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images\items\potato.jpg" alt="potato" width="50" height="50">
+                    </td>
+                    <td>
+                        <a href="/veg links/potato-link.html">Potatoes</a>
+                    </td>
+                    <td>
+                        25 /- <sub>per kg</sub>
+                    </td>
+                    <td>
+                        <!-- <button onclick="decrement()">-</button> -->
+                        <input type="number" id="demoInput" style="width: 45px;"  value="0" min=0 max=51>
+                        <!-- <button onclick="increment()">+</button> -->
+                        <script>
+                        function increment() {
+                            document.getElementById('demoInput').stepUp();
+                        }
+                        function decrement() {
+                            document.getElementById('demoInput').stepDown();
+                        }
+                        </script>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images\items\potato.jpg" alt="potato" width="50" height="50">
+                    </td>
+                    <td>
+                        <a href="/veg links/potato-link.html">Potatoes</a>
+                    </td>
+                    <td>
+                        25 /- <sub>per kg</sub>
+                    </td>
+                    <td>
+                        <!-- <button onclick="decrement()">-</button> -->
+                        <input type="number" id="demoInput" style="width: 45px;"  value="0" min=0 max=51>
+                        <!-- <button onclick="increment()">+</button> -->
+                        <script>
+                        function increment() {
+                            document.getElementById('demoInput').stepUp();
+                        }
+                        function decrement() {
+                            document.getElementById('demoInput').stepDown();
+                        }
+                        </script>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images\items\potato.jpg" alt="potato" width="50" height="50">
+                    </td>
+                    <td>
+                        <a href="/veg links/potato-link.html">Potatoes</a>
+                    </td>
+                    <td>
+                        25 /- <sub>per kg</sub>
+                    </td>
+                    <td>
+                        <!-- <button onclick="decrement()">-</button> -->
+                        <input type="number" id="demoInput" style="width: 45px;"  value="0" min=0 max=51>
+                        <!-- <button onclick="increment()">+</button> -->
+                        <script>
+                        function increment() {
+                            document.getElementById('demoInput').stepUp();
+                        }
+                        function decrement() {
+                            document.getElementById('demoInput').stepDown();
+                        }
+                        </script>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images\items\potato.jpg" alt="potato" width="50" height="50">
+                    </td>
+                    <td>
+                        <a href="/veg links/potato-link.html">Potatoes</a>
+                    </td>
+                    <td>
+                        25 /- <sub>per kg</sub>
+                    </td>
+                    <td>
+                        <!-- <button onclick="decrement()">-</button> -->
+                        <input type="number" id="demoInput" style="width: 45px;"  value="0" min=0 max=51>
+                        <!-- <button onclick="increment()">+</button> -->
+                        <script>
+                        function increment() {
+                            document.getElementById('demoInput').stepUp();
+                        }
+                        function decrement() {
+                            document.getElementById('demoInput').stepDown();
+                        }
+                        </script>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images\items\potato.jpg" alt="potato" width="50" height="50">
+                    </td>
+                    <td>
+                        <a href="/veg links/potato-link.html">Potatoes</a>
+                    </td>
+                    <td>
+                        25 /- <sub>per kg</sub>
+                    </td>
+                    <td>
+                        <!-- <button onclick="decrement()">-</button> -->
+                        <input type="number" id="demoInput" style="width: 45px;"  value="0" min=0 max=51>
+                        <!-- <button onclick="increment()">+</button> -->
+                        <script>
+                        function increment() {
+                            document.getElementById('demoInput').stepUp();
+                        }
+                        function decrement() {
+                            document.getElementById('demoInput').stepDown();
+                        }
+                        </script>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images\items\potato.jpg" alt="potato" width="50" height="50">
+                    </td>
+                    <td>
+                        <a href="/veg links/potato-link.html">Potatoes</a>
+                    </td>
+                    <td>
+                        25 /- <sub>per kg</sub>
+                    </td>
+                    <td>
+                        <!-- <button onclick="decrement()">-</button> -->
+                        <input type="number" id="demoInput" style="width: 45px;"  value="0" min=0 max=51>
+                        <!-- <button onclick="increment()">+</button> -->
+                        <script>
+                        function increment() {
+                            document.getElementById('demoInput').stepUp();
+                        }
+                        function decrement() {
+                            document.getElementById('demoInput').stepDown();
+                        }
+                        </script>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images\items\potato.jpg" alt="potato" width="50" height="50">
+                    </td>
+                    <td>
+                        <a href="/veg links/potato-link.html">Potatoes</a>
+                    </td>
+                    <td>
+                        25 /- <sub>per kg</sub>
+                    </td>
+                    <td>
+                        <!-- <button onclick="decrement()">-</button> -->
+                        <input type="number" id="demoInput" style="width: 45px;"  value="0" min=0 max=51>
+                        <!-- <button onclick="increment()">+</button> -->
+                        <script>
+                        function increment() {
+                            document.getElementById('demoInput').stepUp();
+                        }
+                        function decrement() {
+                            document.getElementById('demoInput').stepDown();
+                        }
+                        </script>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images\items\potato.jpg" alt="potato" width="50" height="50">
+                    </td>
+                    <td>
+                        <a href="/veg links/potato-link.html">Potatoes</a>
+                    </td>
+                    <td>
+                        25 /- <sub>per kg</sub>
+                    </td>
+                    <td>
+                        <!-- <button onclick="decrement()">-</button> -->
+                        <input type="number" id="demoInput" style="width: 45px;"  value="0" min=0 max=51>
+                        <!-- <button onclick="increment()">+</button> -->
+                        <script>
+                        function increment() {
+                            document.getElementById('demoInput').stepUp();
+                        }
+                        function decrement() {
+                            document.getElementById('demoInput').stepDown();
+                        }
+                        </script>
+                    </td>
+                </tr>
+        </table>
+        <div class="add-to-cart">
+            <button class="addToCart"><span>Submit </span></button>
+        </div>
+    </form>
+    <div style="background-color:white;padding:30px 30px 250px">
+    </div>
+    <footer>
+        <div class="panel">
+            <div class="footer-logo">
+                <h4>FARMWORLD</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, veritatis.</p>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-heading">
+                <h4>About</h4>
+            </div>
+            <ul class="panel-list">
+                <li><a href="#">Farm world</a></li>
+                <li><a href="#">Farmer Network</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQ's</a></li>
+            </ul>
+        </div>
+        <div class="panel">
+            <div class="panel-heading">
+                <h4>Information</h4>
+            </div>
+            <ul class="panel-list">
+                <li><a href="#">Terms&conditions</a></li>
+                <li><a href="#">Privacy Policies</a></li>
+                <li><a href="#">Refund Policies</a></li>
+                <li><a href="#">Others</a></li>
+            </ul>
+        </div>
+        
+        <div class="social-media-acc">
+            <a href="https://www.whatsapp.com/" title="whatsapp">
+                <i style="font-size:24px;color:green;" class="fa">&#xf232;</i>
+                </a>
+                <a href="https://www.linkedin.com/" title="linkedin">
+                <i style="font-size:24px;color:rgb(15, 98, 194);" class="fa">&#xf08c;</i>
+                </a>
+                <a href="https://www.instagram.com/" title="instagram">
+                <i style="font-size:24px;color:rgb(248, 148, 164);" class="fa">&#xf16d;</i>
+                </a>
+                <a href="https://www.facebook.com/" title="facebook">
+                <i style="font-size:24px;color:rgb(15, 98, 194)" class="fa">&#xf09a;</i>
+            </a>
+        </div>
+        <div class="panel">
+            <div class="panel-heading">
+                <h2>FARMWORLD &copy</h2>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
