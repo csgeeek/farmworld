@@ -1,0 +1,22 @@
+body{
+    background-image: url("images/3.jpg");
+    background-size: cover;
+}
+
+.home-link{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.home-link a{
+    text-decoration: none;
+    color: gray;
+}
+.det1{
+    margin-top: 80px;
+    font-size: 25px;
+    font-family: monospace;
+    text-align: center;
+}
+.link1{
+    cursor: pointer;
+}
