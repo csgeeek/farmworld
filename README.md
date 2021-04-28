@@ -6,3 +6,5 @@
 <b>index.html</b> is the home page.
 
 Back-end is being tested on local machine using xampp.
+
+Here is a preview of my project[index.html].
