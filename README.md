@@ -7,4 +7,4 @@
 
 Back-end is being tested on local machine using xampp.
 
-Here is a preview of my [project](https://index.html).
+Here is a preview of my [project](https://github.com/Yaswanth820/farmworld/blob/main/index.html).
