@@ -7,4 +7,13 @@
 
 Back-end is being tested on local machine using xampp.
 
-Here is a preview of my [project](https://github.com/Yaswanth820/farmworld/blob/main/index.html).
+Here is a preview of my [project].
+
+![Login Page](https://github.com/Yaswanth820/farmworld/blob/main/SC/login%20page.PNG)
+  
+![Home](https://github.com/Yaswanth820/farmworld/blob/main/SC/home.PNG)
+  
+![Veggie List](https://github.com/Yaswanth820/farmworld/blob/main/SC/Veg%20List.PNG)
+  
+![Veggie Basket](https://github.com/Yaswanth820/farmworld/blob/main/SC/veggie%20cart.PNG)
+  
