@@ -1,9 +1,9 @@
 <!-- 
     Known bugs:
-        1. Text inside NavBar Links is not visible sometimes.  **Can be Fixed**
-        2. It seems like Left NavBar links arent exhibiting transition effect. **Can be fixed**
+        
  -->
  <!-- 
-    Solved:
-        1. Text inside NavBar Links is not visible sometimes.  **Can be Fixed**
+    Fixed:
+        1. Text inside NavBar Links is not visible sometimes.
+        2. Left NavBar links are not exhibiting transition effects.
   -->
