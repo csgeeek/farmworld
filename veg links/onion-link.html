@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomato-page</title>
+    <link rel="stylesheet" href="attachToTomato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*
+.list ,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 0.9em;
+	font-family: monospace;
+}
+*/
+body{
+    /* background-color: coral; */
+}
+h1{
+    text-align: center;
+}
+table{
+    /* border: 1px solid black; 
+    font-family: monospace;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 50px 600px;
+    */
+                /* border: 1px solid black; */
+                font-family: monospace;
+                text-align: left;
+                border-collapse: collapse;
+                margin: 50px 600px;
+                border-radius: 3px 3px 3px 3px;
+                overflow: hidden;
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+table th{
+    background-color: burlywood;
+    font-size: 1.5em;
+}
+table tr td{
+    background-color: cadetblue;
+    font-weight: 500;
+}
+table th,
+table td{
+    padding: 15px 5px;
+}
+
+/* footer panel */
+footer{
+	background-color: burlywood;
+	height: 30vh;
+	display: flex;
+	justify-content: space-evenly;
+}
+footer .panel .footer-logo{
+	float: left;
+	color: brown;
+	width: 88%;
+	/* transform: translate(30%,5%); */
+}
+footer .panel .footer-logo p{
+	font-family: 'Lora', serif ;
+	font-size: 16px;
+    letter-spacing: -0.1px;
+	/* color: gray; */
+    line-height: 20px;
+}
+footer .panel {
+	margin-top: 80px;
+	font-size: 20px;
+	text-align: center;
+
+}
+footer .panel .panel-list {
+	list-style: none;
+}
+footer .panel .panel-list a{
+	text-decoration: none;
+	color: gray;
+	font-size: 15px;
+}
+.social-media-acc{
+	margin-top: 80px;
+}
+.social-media-acc a{ 
+	padding: 0 0.6rem 0 0;
+	text-decoration: none;
+}
+
+
+    </style>
+</head>
+<body>
+    <h1>Farmers Details</h1>
+    <table class="list" style="width: 25%;">
+        <thead>
+            <tr>
+                <th>Farmer</th>
+                <th>Location</th>
+                <th>In-Date</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Farmer1</td>
+            <td>Location1</td>
+            <td>5-APR-21</td>
+        </tr>
+        <tr>
+            <td>Farmer2</td>
+            <td>Location2</td>
+            <td>3-APR-21</td>
+        </tr>
+        <tr>
+            <td>Farmer3</td>
+            <td>Location3</td>
+            <td>1-APR-21</td>
+        </tr>
+        <tr>
+            <td>Farmer4</td>
+            <td>Location4</td>
+            <td>2-APR-21</td>
+        </tr>
+    </table>
+    <br><br><br><br><br><br><br><br><br>
+    <footer>
+        <div class="panel">
+        <div class="class-footer-img">
+            <img src="images/Logo2.png" alt="Logo" style="width: 50%; height: 50%;">
+        </div>
+    </div>
+        <div class="panel">
+            <div class="footer-logo">
+                <h4>FARMWORLD</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, veritatis.</p>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-heading">
+                <h4>About</h4>
+            </div>
+            <ul class="panel-list">
+                <li><a href="#">Farm world</a></li>
+                <li><a href="#">Farmer Network</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQ's</a></li>
+            </ul>
+        </div>
+        <div class="panel">
+            <div class="panel-heading">
+                <h4>Information</h4>
+            </div>
+            <ul class="panel-list">
+                <li><a href="#">Terms&conditions</a></li>
+                <li><a href="#">Privacy Policies</a></li>
+                <li><a href="#">Refund Policies</a></li>
+                <li><a href="#">Others</a></li>
+            </ul>
+        </div>
+        <div class="social-media-acc">
+            <a href="https://www.whatsapp.com/" title="whatsapp" >
+                <i style="font-size:24px;color:green;" class="fa">&#xf232;</i>
+                </a>
+                <a href="https://www.linkedin.com/" title="linkedin">
+                <i style="font-size:24px;color:rgb(15, 98, 194);" class="fa">&#xf08c;</i>
+                </a>
+                <a href="https://www.instagram.com/" title="instagram" id="Instagram">
+                <i style="font-size:24px;color:rgb(253, 119, 141);" class="fa">&#xf16d;</i>
+                </a>
+                <a href="https://www.facebook.com/" title="facebook" id="Facebook">
+                <i style="font-size:24px;color:rgb(15, 98, 194)" class="fa">&#xf09a;</i>
+            </a>
+        </div>
+        <div class="panel">
+            <div class="panel-heading">
+                <h2>FARMWORLD &copy</h2>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
