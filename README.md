@@ -7,7 +7,7 @@
 
 Back-end is being tested on local machine using xampp.
 
-Here is a preview of my [project].
+Here is a preview of my project.
 
 ![Login Page](https://github.com/Yaswanth820/farmworld/blob/main/SC/login%20page.PNG)
   
